@@ -1,0 +1,121 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Top Navigation */
+.top-nav {
+  background-color: #111;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero / Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #222;
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
+
+/* Grid for Projects (if reused in homepage) */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.project-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #222;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+}

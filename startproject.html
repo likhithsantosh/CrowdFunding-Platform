@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Start a Project</title>
+  <link rel="stylesheet" href="/css/startproject.css" />
+</head>
+<body>
+  <div class="top-nav">
+    <a href="/html/home.html">Home</a>
+    <a href="/html/startproject.html">Start a Project</a>
+  </div>
+
+  <div class="form-container">
+    <h2>Launch Your Project</h2>
+    <form id="projectForm">
+      <input type="text" name="title" placeholder="Project Title" required />
+      <input type="text" name="category" placeholder="Category" required />
+      <textarea name="description" placeholder="Describe your project..." required></textarea>
+      <input type="number" name="targetFunds" placeholder="Target Amount (₹)" required />
+      <input type="date" name="deadline" required />
+      <input type="text" name="image" required />
+      <button type="submit">Create Project</button>
+    </form>
+  </div>
+
+  <script src="/js/startproject.js"></script>
+</body>
+</html>

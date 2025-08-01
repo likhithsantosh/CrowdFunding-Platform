@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kickstarter Clone</title>
+  <link rel="stylesheet" href="/css/home.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <div class="left">Kickstarter</div>
+    <div class="right">
+      
+      <a href="/html/startproject.html">Start a Project</a>
+      <a href="/html/login.html">Login</a>
+      <a href="/html/signup.html">Sign Up</a>
+      <a href="/html/profile.html">Profie</a>
+      <a href="#" onclick="logout()">Logout</a>
+
+    </div>
+  </div>
+
+  <header class="hero">
+    <h1>Discover Projects. Support Creative Ideas.</h1>
+    <p>Kickstarter is the world's largest funding platform for creative projects.</p>
+  </header>
+  <select id="sortFilter">
+  <option value="latest">Latest Added</option>
+  <option value="old">Oldest Added</option>
+</select>
+
+
+  <div class="projects-container">
+  <div class="posts-grid" id="postsGrid">
+    <!-- posts will be added here dynamically -->
+  </div>
+</div>
+
+
+  <script src="/js/home.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #222;
+  color: white;
+  align-items: center;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(120deg, #00c9a7, #007f5f);
+  color: white;
+  padding: 60px 20px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+.post-box {
+  background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 15px;
+    height: 90vh;
+    width: 25vw;
+}
+
+.post-box:hover {
+  transform: translateY(-5px);
+}
+
+.post-box img {
+  width: 50%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-box h3 {
+  margin: 10px 0 6px;
+  font-size: 1.2rem;
+}
+
+.post-box p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+.fund-input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007f5f;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #005f45;
+}
+#sortContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#sortContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 100%;
+}
+
+#sortFilter {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #007f5f;
+  border: 2px solid #007f5f;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 127, 95, 0.1);
+  outline: none;
+  min-width: 200px;
+  text-align: center;
+}
+
+#sortFilter:hover {
+  background-color: #007f5f;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 127, 95, 0.2);
+}
